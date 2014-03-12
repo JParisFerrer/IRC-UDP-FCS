@@ -1,0 +1,16 @@
+(C -> Q)
+
+Type Codes:
+
+0000 0001 (0x01)   -  Control message (Updates motore values, shoots, etc)
+0000 0010 (0x02)   -  Hello message (used to verify FCS is receiving messages properly)
+0000 0100 (0x04)   -  Verify message (verifies all the connected sensors are functioning)
+1111 1111 (0xFF)   -  Shutdown message (shuts down the FCS (will not be listening for new messages!))
+
+Commands Codes:
+
+
+
+(Q -> C)
+
+Flags Codes:

@@ -1,0 +1,20 @@
+(C -> Q)
+
+Type (8 Bits) - The type of the packet (control, shutdown, hello, etc)
+
+RF (8 Bits) - The speed to run the forward-right motor
+
+RB (8 Bits) - The speed to run the back-right motor
+
+LF (8 Bits) - The speed to run the forward-left motor
+
+LB (8 Bits) - The speed to run the back-left right motor
+
+Commands (16 Bits) - A bitfield that contains commands for things like shooting, dropping, etc
+
+
+
+(Q -> C)
+
+Flags (16 Bits) - Contains bools that say status of packet/quadcopter (eg low battery)
+
