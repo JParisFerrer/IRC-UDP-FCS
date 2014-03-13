@@ -86,7 +86,7 @@ def Listen(port = 13337):
                     LB = int(data[4])
 
                     # Bit flags is 16 bits (2 bytes)
-                    bitFlags = (bin(data[5]) + bin(data[6])[2:0])[2:]
+                    bitFlags = (bin(data[5]) + bin(data[6])[2:])[2:]
 
                     # Check for bit flags
                     
