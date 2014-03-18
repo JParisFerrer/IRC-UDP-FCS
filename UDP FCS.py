@@ -4,7 +4,7 @@ import socket
 import sys
 
 PORT = 13337
-FCS_VERSION = "0.5"
+FCS_VERSION = "0.6"
 
 def Listen(port = 13337):
     PORT = port
